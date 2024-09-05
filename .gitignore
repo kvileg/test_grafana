@@ -1,2 +1,2 @@
-grafana-project/grafana-data/
-grafana-project/postgres-data/
+grafana-project/grafana-data/*
+grafana-project/postgres-data/*
