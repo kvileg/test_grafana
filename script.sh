@@ -2,6 +2,9 @@
 cd grafana-project
 docker compose up -d
 
+# Установка Nginx
+sudo apt install -y nginx
+
 # Настройка Nginx для проксирования Grafana
 sudo bash -c 'cat <<EOF > /etc/nginx/sites-available/default
 server {
